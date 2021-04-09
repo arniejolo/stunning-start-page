@@ -144,3 +144,19 @@ section div img {
   height: 1em;
   margin-right: .5;
 }
+
+section div strong {
+  font-weight: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: .875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
+}
