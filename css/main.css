@@ -1,6 +1,9 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
+  background-color: #afafaf;
+  color: #323232;
+
 }
 
 *, *::before, *::after {
@@ -9,19 +12,59 @@ html {
 
 body {
   margin: 0;
-  background-color: #afafaf;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 header {
-  background-color: #bd027d;
+  display: grid;
+  grid-column: auto 10em auto;
+  grid-auto-rows: auto 1.5rem;
+  grid-template-areas:
+  "left center right"
+  ". center .";
+  margin-bottom: 1.5rem;
 }
 
 header nav li {
   list-style-type: none;
 }
 
+header h1 {
+  grid-area: center;
+  margin: 0;
+  z-index: 0;
+}
+
+nav {
+  background-color: green;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
 a {
   text-decoration: none;
   font-family: PT Sans Narrow, sans-serif;
   color: #fff;
+}
+
+section > li h3 {
+  list-style-type: none;
 }
