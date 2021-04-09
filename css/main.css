@@ -27,8 +27,6 @@ header {
   "left center right"
   ". center .";
   margin-bottom: 1.5rem;
-
-  background-color: #bd027d;
 }
 
 header h1 {
@@ -40,6 +38,7 @@ header h1 {
 nav {
   grid-column: 1 / -1;
   grid-row: 1;
+  background-color: #bd027d
 }
 
 nav ul {
@@ -58,21 +57,14 @@ nav a {
   background-color: #bd027d;
   color: #eccee2;
   border: 2px solid #960062;
-}
-
-
-
-
-
-
-
-
-
-a {
+  border-radius: 6px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
-  font-family: PT Sans Narrow, sans-serif;
-  color: #fff;
+  font-weight: bold;
+  font-size: 1.123rem;
 }
+
 
 section > li h3 {
   list-style-type: none;
