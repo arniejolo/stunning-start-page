@@ -9,6 +9,11 @@ html {
 
 body {
   margin: 0;
+  background-color: #afafaf;
+}
+
+header {
+  background-color: #bd027d;
 }
 
 header nav li {
