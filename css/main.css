@@ -3,7 +3,6 @@ html {
   font-family: Georgia, serif;
   background-color: #bebebe;
   color: #323232;
-
 }
 
 *, *::before, *::after {
@@ -27,7 +26,6 @@ header {
   "left center right"
   ". center .";
   margin-bottom: 1.5rem;
-
 }
 
 header h1 {
@@ -51,7 +49,6 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-
 }
 
 nav a {
