@@ -27,10 +27,8 @@ header {
   "left center right"
   ". center .";
   margin-bottom: 1.5rem;
-}
 
-header nav li {
-  list-style-type: none;
+  background-color: #bd027d;
 }
 
 header h1 {
@@ -40,16 +38,27 @@ header h1 {
 }
 
 nav {
-  background-color: green;
   grid-column: 1 / -1;
   grid-row: 1;
 }
 
 nav ul {
+  list-style-type: none;
+  margin: 0 1rem;
+  padding: 0;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
+nav a {
+  padding: .5em .8em;
+  background-color: #bd027d;
+  color: #eccee2;
+  border: 2px solid #960062;
+}
 
 
 
