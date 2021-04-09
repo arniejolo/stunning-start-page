@@ -27,6 +27,7 @@ header {
   "left center right"
   ". center .";
   margin-bottom: 1.5rem;
+
 }
 
 header h1 {
@@ -36,9 +37,9 @@ header h1 {
 }
 
 nav {
+  background-color: #bd027d;
   grid-column: 1 / -1;
   grid-row: 1;
-  background-color: #bd027d
 }
 
 nav ul {
@@ -50,6 +51,7 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+
 }
 
 nav a {
@@ -142,7 +144,7 @@ section div {
 section div img {
   width: 1em;
   height: 1em;
-  margin-right: .5;
+  margin-right: .5rem;
 }
 
 section div strong {
